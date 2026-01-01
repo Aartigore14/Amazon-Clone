@@ -14,8 +14,6 @@ https://aartigore14.github.io/amazon-clone/
 - Footer with multiple sections
 
 ## 📸 Project Output
-![Amazon Clone Output]Amazon.com-Clone_Output.jpeg)
-
 This project is a front-end clone of the Amazon homepage, designed to replicate the layout and visual appearance of the original website.
 It includes a responsive navigation bar, hero banner, product cards, and footer sections.
 
