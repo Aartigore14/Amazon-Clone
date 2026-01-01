@@ -1,0 +1,147 @@
+.navbar {
+  height: 60px;
+  background-color: #131921;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 0 15px;
+  gap: 15px;
+}
+
+/* Logo */
+.nav-logo img {
+  width: 100px;
+  object-fit: contain;
+}
+
+/* Address */
+.address {
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+}
+
+.address .deliver {
+  color: #ccc;
+  text-decoration: none;
+}
+
+.map-icon {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.location {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* ===== SEARCH BAR ===== */
+.nav-search {
+  display: flex;
+  flex: 1;
+  height: 40px;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.select-search {
+  width: 60px;
+  border: none;
+  background-color: #f3f3f3;
+  padding: 5px;
+}
+
+.search-input {
+  flex: 1;
+  border: none;
+  padding: 10px;
+  font-size: 15px;
+  outline: none;
+}
+
+.search-icon {
+  width: 45px;
+  background-color: #febd69;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.search-icon span {
+  color: black;
+}
+
+/* ===== RIGHT NAV ITEMS ===== */
+.sign-in,
+.returns,
+.cart {
+  font-size: 12px;
+}
+.sign-in:hover {
+  border: 1px solid white;
+}
+.returns:hover {
+  border: 1px solid white;
+}
+.cart:hover {
+  border: 1px solid white;
+}
+
+.sign-in span,
+.returns span {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+}
+
+.cart {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.cart-icon {
+  font-size: 28px;
+}
+.map-icon:hover{
+    border: 1px solid white;
+}
+
+/* ===== LANGUAGE SELECTOR ===== */
+.nav-language {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 5px 8px;
+  cursor: pointer;
+  border: 1px solid transparent;
+}
+
+.nav-language img {
+  width: 18px;
+  height: 12px;
+  object-fit: cover;
+}
+
+.nav-language span {
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+}
+
+.nav-language .arrow {
+  font-size: 10px;
+  margin-top: 2px;
+}
+
+.nav-language:hover {
+  border: 1px solid white;
+}

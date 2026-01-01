@@ -1,0 +1,112 @@
+.banner {
+  background-color: #232f3e;
+  height: 40px;
+}
+
+.banner-content {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding: 0 15px;
+  color: white;
+}
+
+
+/* Menu */
+.panel {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-weight: bold;
+  margin-right: 15px;
+}
+
+/* Links */
+.links {
+  display: flex;
+  list-style: none;
+  gap: 15px;
+  flex: 1;
+}
+
+.links li a {
+  color: white;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.links li a:hover {
+  border: 1px solid white;
+}
+
+/* Right deal text */
+.deals a {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* ===== HERO SECTION ===== */
+.hero-section {
+  height: 350px;
+  background-image: url("images/hero.jpg"); /* optional */
+  background-size: cover;
+  background-position: center;
+}
+
+/* ===== HERO SECTION (YELLOW BANNER) ===== */
+.hero-section {
+  height: 350px;
+  background-image: url("/images/hero-banner.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-color: #e3e6e6;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+/* white message strip (optional like Amazon) */
+.hero-msg {
+  background-color: white;
+  color: black;
+  padding: 10px 20px;
+  font-size: 14px;
+  width: 90%;
+  text-align: center;
+}
+
+.hero-msg a {
+  color: #007185;
+  text-decoration: none;
+}
+
+/* ===== SHOP SECTION ===== */
+.shop-section {
+  padding: 20px;
+}
+
+.shop-images {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.shop-link {
+  background-color: white;
+  padding: 15px;
+}
+
+.shop-link img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.shop-link a {
+  color: #007185;
+  text-decoration: none;
+  font-size: 14px;
+}
