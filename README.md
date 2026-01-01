@@ -10,7 +10,7 @@ A front-end clone of the Amazon homepage built using HTML and CSS.
 - Responsive layout
 
 ## Live Demo
-https://your-username.github.io/amazon-clone/
+(https://aartigore14.github.io/Amazon-Clone/)
 
 ## Tech Stack
 - HTML
