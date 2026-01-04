@@ -2,9 +2,6 @@
 
 A front-end clone of the Amazon homepage built using HTML and CSS.
 
-## 🚀 Live Demo
-https://aartigore14.github.io/amazon-clone/
-
 ## ✨ Features
 - Amazon-style navigation bar
 - Search bar with category selector
